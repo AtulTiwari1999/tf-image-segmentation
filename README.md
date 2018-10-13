@@ -41,7 +41,7 @@ This code requires:
  ```
 3. Some libraries which can be acquired by installing [Anaconda package](https://www.continuum.io/downloads).
  
- Or you can install ```scikit-image```, ```matplotlib```, ```numpy``` using ```pip```.
+ Or you can install ```scikit-image```, ```matplotlib```, ```numpy```,```seaborn``` using ```pip```.
  
 4. ```VGG 16``` checkpoint file, which you can get from [here](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz).
 
@@ -54,7 +54,7 @@ This code requires:
  ```python
  import sys
  # update with your path
- sys.path.append("/home/dpakhom1/tf_projects/segmentation/tf-image-segmentation/")
+ sys.path.append("/home/username/tf_projects/segmentation/tf-image-segmentation/")
  ```
 
 
@@ -96,8 +96,7 @@ If you used the code for your research, please, cite the paper:
       title={Deep Residual Learning for Instrument Segmentation in Robotic Surgery},
       author={Pakhomov, Daniil and Premachandran, Vittal and Allan, Max and Azizian, Mahdi and Navab, Nassir},
       journal={arXiv preprint arXiv:1703.08580},
-      year={2017}
-    }
+      year={2017} }
 
 During implementation, some preliminary experiments and notes were reported:
 - [Converting Image Classification network into FCN](http://warmspringwinds.github.io/tensorflow/tf-slim/2016/10/30/image-classification-and-segmentation-using-tensorflow-and-tf-slim/)
